@@ -76,7 +76,7 @@
   "Diciembre": [
     {
       "id": "9",
-      "name": "Documentos",
+      "name": "Documentos2",
       "description": "Carga de documentos desde planes, aprobaciones (manager y rep)\n- Se podrá asociar un documento a un plan\n- Se podrá asociar un documento a una aprobación\n- Se podrán visualizar los documentos en la vista de Documentos\n\nCarga masiva de documentos",
       "status": "planning",
       "estimatedTime": "1 semana",
