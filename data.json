@@ -1,0 +1,87 @@
+{
+  "Noviembre": [
+    {
+      "id": "1",
+      "name": "Integración con Google Sheets",
+      "description": "Posibilidad de integrar la aplicación con Google Sheets. \nConsumir la información y usarla en la aplicación\n- Usuarios\n- Comisiones\n- Resumen de reglas",
+      "status": "testing",
+      "estimatedTime": "1 semana",
+      "estimatedTimeStatus": "on-track",
+      "releaseDate": "2024-11-08"
+    },
+    {
+      "id": "2",
+      "name": "Comisiones",
+      "description": "Plan con regla de comisiones externa, los datos de la regla y su resumen.\nAjustes de diseño y funcionalidad.\n\n* Los planes creados con esta regla, tendrán un mensaje de que no se pueden editar.",
+      "status": "testing",
+      "estimatedTime": "1 semana",
+      "estimatedTimeStatus": "on-track",
+      "releaseDate": "2024-11-08"
+    },
+    {
+      "id": "3",
+      "name": "Summary (Vista de rep)",
+      "description": "Actualización de los componentes relacionados a los negocios, actividad del mes. \nEl componente de intervalos de la regla quedará oculto de momento.",
+      "status": "in-progress",
+      "estimatedTime": "1 día",
+      "estimatedTimeStatus": "on-track",
+      "releaseDate": "2024-11-08"
+    },
+    {
+      "id": "4",
+      "name": "Summary (Vista de rep) + Intervalos de regla",
+      "description": "Se ajustará el componente de intervalos de la regla para que se muestre en la vista de resumen.\nLos datos serán consumidos desde Google Sheets.",
+      "status": "planning",
+      "estimatedTime": "2 días",
+      "estimatedTimeStatus": "on-track",
+      "releaseDate": "2024-11-15"
+    },
+    {
+      "id": "5",
+      "name": "Goals",
+      "description": "Seguimos con el modelo actual de funcionamiento.\nSe agregaran un nuevo tipo de meta, que será utilizada para enlazar con los datos de Google Sheets.\nSe podrá crear, visualizar y utilizar en el resto de la aplicación.\nLa edición será restringida.",
+      "status": "planning",
+      "estimatedTime": "1 semana + 2 días",
+      "estimatedTimeStatus": "on-track",
+      "releaseDate": "2024-11-19"
+    },
+    {
+      "id": "6",
+      "name": "Summary (Vista de manager)",
+      "description": "Implementación del nuevo diseño.\nIncorporar los cambios del backend necesarios para las distintas cards.",
+      "status": "planning",
+      "estimatedTime": "1 semana",
+      "estimatedTimeStatus": "on-track",
+      "releaseDate": "2024-11-22"
+    },
+    {
+      "id": "7",
+      "name": "Métricas",
+      "description": "Terminar el desarrollo truncado de métricas.\nSumando la posibilidad de tener un backend capaz de crear, guardar y visualizar métricas.\nLos datos serán consumidos desde Google Sheets.",
+      "status": "planning",
+      "estimatedTime": "1 semana + 2 días",
+      "estimatedTimeStatus": "on-track",
+      "releaseDate": "2024-11-28"
+    },
+    {
+      "id": "8",
+      "name": "Auditoria",
+      "description": "Desarrollo de la vista de auditoria.\n- Se podrá visualizar los cambios realizados en la aplicación.\n- Se podrá filtrar por entidad y fecha.\n\nSe generará un registro a nivel backend de los cambios realizados por las ingestas de Google Sheets.\n- Nuevas registros\n- Registros editados\n- Registros eliminados",
+      "status": "planning",
+      "estimatedTime": "1 semana",
+      "estimatedTimeStatus": "on-track",
+      "releaseDate": "2024-11-29"
+    }
+  ],
+  "Diciembre": [
+    {
+      "id": "9",
+      "name": "Documentos",
+      "description": "Carga de documentos desde planes, aprobaciones (manager y rep)\n- Se podrá asociar un documento a un plan\n- Se podrá asociar un documento a una aprobación\n- Se podrán visualizar los documentos en la vista de Documentos\n\nCarga masiva de documentos",
+      "status": "planning",
+      "estimatedTime": "1 semana",
+      "estimatedTimeStatus": "on-track",
+      "releaseDate": "2024-12-06"
+    }
+  ]
+}
